@@ -1,0 +1,161 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Unscaled Compressed Oops mode in which the Java heap is
+#     placed in the first 4GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 4GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=17260, tid=0x0000000000003dd0
+#
+# JRE version:  (8.0_282-b08) (build )
+# Java VM: OpenJDK 64-Bit Server VM (25.282-b08 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002444800):  JavaThread "Unknown thread" [_thread_in_vm, id=15824, stack(0x0000000002330000,0x0000000002430000)]
+
+Stack: [0x0000000002330000,0x0000000002430000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002444800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=15824, stack(0x0000000002330000,0x0000000002430000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x0000000080000000, size: 2048 MB, Compressed Oops mode: 32-bit
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x0000000100000000
+
+Heap:
+ PSYoungGen      total 37888K, used 655K [0x00000000d5580000, 0x00000000d7f80000, 0x0000000100000000)
+  eden space 32768K, 2% used [0x00000000d5580000,0x00000000d5623d80,0x00000000d7580000)
+  from space 5120K, 0% used [0x00000000d7a80000,0x00000000d7a80000,0x00000000d7f80000)
+  to   space 5120K, 0% used [0x00000000d7580000,0x00000000d7580000,0x00000000d7a80000)
+ ParOldGen       total 86016K, used 0K [0x0000000080000000, 0x0000000085400000, 0x00000000d5580000)
+  object space 86016K, 0% used [0x0000000080000000,0x0000000080000000,0x0000000085400000)
+ Metaspace       used 801K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 77K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x00000000118f0000,0x0000000011d00000] byte_map_base: 0x00000000114f0000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000077871f00
+ Begin Bits: [0x00000000127b0000, 0x00000000147b0000)
+ End Bits:   [0x00000000147b0000, 0x00000000167b0000)
+
+Polling page: 0x00000000009a0000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000002530000, 0x00000000027a0000, 0x0000000011530000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.021 loading class java/lang/Short
+Event: 0.021 loading class java/lang/Short done
+Event: 0.021 loading class java/lang/Integer
+Event: 0.021 loading class java/lang/Integer done
+Event: 0.021 loading class java/lang/Long
+Event: 0.022 loading class java/lang/Long done
+Event: 0.022 loading class java/lang/NullPointerException
+Event: 0.022 loading class java/lang/NullPointerException done
+Event: 0.022 loading class java/lang/ArithmeticException
+Event: 0.022 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff66c770000 - 0x00007ff66c7a5000 	E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\jre\bin\javaw.exe
+0x00007ff88a7f0000 - 0x00007ff88a9e8000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ff889050000 - 0x00007ff88910d000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ff887f10000 - 0x00007ff8881de000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ff889910000 - 0x00007ff8899be000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ff889870000 - 0x00007ff88990e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ff889ba0000 - 0x00007ff889c3c000 	C:\WINDOWS\System32\sechost.dll
+0x00007ff888ca0000 - 0x00007ff888dc5000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ff888dd0000 - 0x00007ff888f70000 	C:\WINDOWS\System32\USER32.dll
+0x00007ff8882c0000 - 0x00007ff8882e2000 	C:\WINDOWS\System32\win32u.dll
+0x00007ff889b70000 - 0x00007ff889b9a000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ff8884f0000 - 0x00007ff8885fb000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ff888450000 - 0x00007ff8884ed000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ff8886b0000 - 0x00007ff8887b0000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ff8703c0000 - 0x00007ff87065a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007ff888f70000 - 0x00007ff888fa0000 	C:\WINDOWS\System32\IMM32.DLL
+0x0000000050490000 - 0x0000000050562000 	E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\jre\bin\msvcr100.dll
+0x0000000077030000 - 0x00000000778f5000 	E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\jre\bin\server\jvm.dll
+0x00007ff88a440000 - 0x00007ff88a448000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ff86cab0000 - 0x00007ff86cad7000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ff881e80000 - 0x00007ff881e89000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ff87ee70000 - 0x00007ff87ee7a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ff88a1c0000 - 0x00007ff88a22b000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ff881e00000 - 0x00007ff881e0f000 	E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\jre\bin\verify.dll
+0x00007ff87d400000 - 0x00007ff87d429000 	E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\jre\bin\java.dll
+0x00007ff87e5e0000 - 0x00007ff87e5f6000 	E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dgroovy.home=C:\Users\ASUS/.groovy -Djava.system.class.loader=groovy.lang.GroovyClassLoader -Xmx2048m -Dfile.encoding=UTF-8 
+java_command: org.codehaus.groovy.tools.GroovyStarter --classpath C:\Users\ASUS\Katalon Studio\SocaAI\bin\keyword;C:\Users\ASUS\Katalon Studio\SocaAI\Keywords;C:\Users\ASUS\Katalon Studio\SocaAI\bin\listener;C:\Users\ASUS\Katalon Studio\SocaAI\Test Listeners;C:\Users\ASUS\Katalon Studio\SocaAI\bin\lib;C:\Users\ASUS\Katalon Studio\SocaAI\Libs;C:\Users\ASUS\Katalon Studio\SocaAI\bin\groovy;C:\Users\ASUS\Katalon Studio\SocaAI\Include\scripts\groovy;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\plugins\com.kms.katalon.core_1.0.0.202207120557.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\aalto-xml-1.0.0.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\aspectjweaver-1.9.1.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\bcpkix-jdk15on-1.64.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\bcprov-jdk15on-1.64.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\browsermob-core-2.1.5.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\cglib-3.2.10.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\commons-codec-1.10.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\commons-collections4-4.1.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\commons-validator-1.6.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\curvesapi-1.04.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\dnsjava-2.1.8.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\java-client-7
+java_class_path (initial): C:\Users\ASUS\Katalon Studio\SocaAI\bin\keyword;C:\Users\ASUS\Katalon Studio\SocaAI\bin\listener;C:\Users\ASUS\Katalon Studio\SocaAI\bin\lib;C:\Users\ASUS\Katalon Studio\SocaAI\bin\groovy;C:\Users\ASUS\Katalon Studio\SocaAI\bin;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\plugins\com.kms.katalon.core_1.0.0.202207120557.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\aalto-xml-1.0.0.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\aspectjweaver-1.9.1.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\bcpkix-jdk15on-1.64.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\bcprov-jdk15on-1.64.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\browsermob-core-2.1.5.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\cglib-3.2.10.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\commons-codec-1.10.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\commons-collections4-4.1.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\commons-validator-1.6.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\curvesapi-1.04.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\dnsjava-2.1.8.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\java-client-7.0.0.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\configuration\resources\lib\jna-4.1.0.jar;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5\config
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=E:/Telkom University/APLIKASI KULIAH/Katalon_Studio_Windows_64-8.3.5/jre/bin/server;E:/Telkom University/APLIKASI KULIAH/Katalon_Studio_Windows_64-8.3.5/jre/bin;E:/Telkom University/APLIKASI KULIAH/Katalon_Studio_Windows_64-8.3.5/jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\flutter\bin;C:\dart-sdk\bin;C:\Program Files\PowerShell\7\;C:\Users\ASUS\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python39\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\GitHubDesktop\bin;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;C:\flutter\bin;E:\Telkom University\APLIKASI KULIAH\Katalon_Studio_Windows_64-8.3.5;
+USERNAME=ASUS
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 19041 (10.0.19041.1889)
+HyperV virtualization detected
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 142 stepping 12, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 8182576k(530904k free), swap 23147948k(5972k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.282-b08) for windows-amd64 JRE (Zulu 8.52.0.23-CA-win64) (1.8.0_282-b08), built on Jan 12 2021 07:45:49 by "tester" with MS VC++ 10.0 (VS2010)
+
+time: Thu Aug 18 16:00:53 2022
+timezone: SE Asia Standard Time
+elapsed time: 0.026937 seconds (0d 0h 0m 0s)
+
