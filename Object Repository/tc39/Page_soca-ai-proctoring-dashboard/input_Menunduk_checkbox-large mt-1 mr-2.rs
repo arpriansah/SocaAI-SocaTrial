@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Menunduk_checkbox-large mt-1 mr-2</name>
+   <tag></tag>
+   <elementGuidId>0b9c91b9-d7f7-4333-932b-b7bb8c814a9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='checkbox']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.checkbox-large.mt-1.mr-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>ef4cba73-ccc7-495f-a6ea-bcb3f944ab44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>b07fb129-d11c-43fd-8aa3-e1b6f3a36429</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkbox-large mt-1 mr-2</value>
+      <webElementGuid>802a1ce5-4d92-47e1-a7c1-72f5766cbb0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper&quot;]/div[@class=&quot;main-container-fluid&quot;]/div[@class=&quot;ml-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row pl-5 mt-3&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3 col-lg-3 col-md-3 col-sm-4 col-xs-6 px-3 py-2&quot;]/div[@class=&quot;border text-left&quot;]/h6[@class=&quot;text-white font-weight-bold number-detail-evidence&quot;]/span[1]/span[1]/input[@class=&quot;checkbox-large mt-1 mr-2&quot;]</value>
+      <webElementGuid>92d2c9e8-86a2-4f37-814a-95163d69392d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='checkbox']</value>
+      <webElementGuid>9e733984-9f07-467e-ae39-0259a021ea2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/div/div/div[2]/div[2]/div[2]/div[2]/div/h6/span/span/input</value>
+      <webElementGuid>c3874697-6136-4b51-8031-4713b091ffd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>cd19bb4c-0308-4293-9cef-2eade54bef57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>e0bd4386-f0d2-4524-9a8b-1bd9419d49c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_-_btn btn-info mr-2</name>
+   <tag></tag>
+   <elementGuidId>5c1e9b63-a259-484f-ae3e-33bf69e7ac8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-info.mr-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='__BVID__86']/tbody/tr/td[7]/div/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>77a2cfc9-2650-4f90-adb2-4dba2fab2a90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-info mr-2</value>
+      <webElementGuid>09b64f60-e226-4a41-a721-f99bfa932be6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__86&quot;)/tbody[1]/tr[1]/td[7]/div[@class=&quot;d-inline-flex align-items-center&quot;]/button[@class=&quot;btn btn-info mr-2&quot;]</value>
+      <webElementGuid>3ac1daaf-795a-4ed3-ab20-3be305163f5e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='__BVID__86']/tbody/tr/td[7]/div/button[2]</value>
+      <webElementGuid>36ba2503-0898-447d-95d7-969335fde87e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::button[2]</value>
+      <webElementGuid>032ef74a-35c1-4912-84c9-070efdc07a5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jadwal testing expired time'])[1]/following::button[2]</value>
+      <webElementGuid>3477f0ec-447e-4730-97a3-9382de94f115</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing'])[3]/preceding::button[3]</value>
+      <webElementGuid>a5a1c334-a4c4-437a-9756-424022305c86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jadwal testing duration'])[1]/preceding::button[3]</value>
+      <webElementGuid>0796417c-27c4-445c-8b3e-12968803d357</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/div/button[2]</value>
+      <webElementGuid>9da2ff14-72f7-42d2-a088-95594f0bcafe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

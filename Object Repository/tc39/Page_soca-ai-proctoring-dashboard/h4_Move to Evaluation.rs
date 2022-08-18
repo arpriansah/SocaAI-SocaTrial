@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_Move to Evaluation</name>
+   <tag></tag>
+   <elementGuidId>f27f67bf-606b-450e-b849-f91f5bc675ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div/div/div/div[2]/div[2]/div/div/span/button/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.text-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>b1ee1b9c-7479-4b6c-b9ab-812023af31d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-primary</value>
+      <webElementGuid>66c95318-b428-4e42-9a02-edb50f495dce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Move to Evaluation </value>
+      <webElementGuid>4b47fd16-1ff3-40bd-a1b9-c8f670b4d365</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper&quot;]/div[@class=&quot;main-container-fluid&quot;]/div[@class=&quot;ml-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row pl-5 mt-3&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row mt-5&quot;]/div[@class=&quot;pull-right&quot;]/span[@class=&quot;span-move&quot;]/button[@class=&quot;borderless&quot;]/h4[@class=&quot;text-primary&quot;]</value>
+      <webElementGuid>45ab552a-8a4b-48f6-aed0-ba55a6184fcb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/div/div/div[2]/div[2]/div/div/span/button/h4</value>
+      <webElementGuid>24351bde-8a28-4053-830b-87743c274c3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Movements'])[1]/following::h4[1]</value>
+      <webElementGuid>65576b49-a5d8-4477-8137-1216aac9585a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Objects'])[1]/following::h4[1]</value>
+      <webElementGuid>4120417e-6bd4-4261-8fcd-648fa8d207ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::h4[1]</value>
+      <webElementGuid>940f8481-ddea-4a4d-884b-5337346db414</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluated'])[1]/preceding::h4[2]</value>
+      <webElementGuid>94296f14-e2d7-4135-a89f-8212296c4450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Move to Evaluation']/parent::*</value>
+      <webElementGuid>b39a1c1d-1390-4b34-8abe-07a9e711b6f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/h4</value>
+      <webElementGuid>2e90d156-e5d8-40c9-adf5-662a142ef618</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = ' Move to Evaluation ' or . = ' Move to Evaluation ')]</value>
+      <webElementGuid>d04828c5-2678-4a11-9291-0cdb1968dc76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

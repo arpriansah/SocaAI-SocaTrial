@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_EmailPasswordForgot Password  Sign In</name>
+   <tag></tag>
+   <elementGuidId>0ccb476b-b8f9-4282-bd69-628c8ec86085</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/form</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>543d2f38-5d9f-4fea-a7d6-dd76e7c45a7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>methods</name>
+      <type>Main</type>
+      <value>POST</value>
+      <webElementGuid>a94350e9-f0da-43f6-a080-2d07a3f1fe9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EmailPasswordForgot Password ? Sign In </value>
+      <webElementGuid>44d8584f-937c-42a5-9640-ca70f693b015</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;home&quot;]/form[1]</value>
+      <webElementGuid>77eeb6f9-6496-4e28-929e-cf2413f619c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/form</value>
+      <webElementGuid>4b1aeabd-3820-43e8-9ae1-2101f1399662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create your own AI apps with easy API integrationss.'])[1]/following::form[1]</value>
+      <webElementGuid>4cc47549-a72e-4591-898a-6c6843235928</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='is an AI platform built to accelerate &amp; transform your business.'])[1]/following::form[1]</value>
+      <webElementGuid>870307b3-da05-409f-8c99-12d8f6af9d29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>b0f8c9c8-7186-414c-9102-755f9904c9c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'EmailPasswordForgot Password ? Sign In ' or . = 'EmailPasswordForgot Password ? Sign In ')]</value>
+      <webElementGuid>40806cdd-1cb9-4760-9c9d-9c091a7e1ce4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

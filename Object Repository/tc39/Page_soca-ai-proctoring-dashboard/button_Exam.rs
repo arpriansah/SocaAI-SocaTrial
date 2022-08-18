@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Exam</name>
+   <tag></tag>
+   <elementGuidId>cdcce784-4633-4840-8abe-110c080e6332</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='__BVID__71']/tbody/tr/td[7]/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>229dba81-2412-4217-8a2e-ebd8f22735d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-primary btn-orange</value>
+      <webElementGuid>22e39a98-733c-4a84-9065-d21b70137a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Exam</value>
+      <webElementGuid>6dd94196-0446-4edd-921c-92549a1acc59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__71&quot;)/tbody[1]/tr[1]/td[7]/div[@class=&quot;d-inline-flex align-items-center pt-2&quot;]/button[@class=&quot;btn btn-sm btn-primary btn-orange&quot;]</value>
+      <webElementGuid>4ffbd0e9-9871-4f9f-8d3d-af3647a038e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='__BVID__71']/tbody/tr/td[7]/div/button[2]</value>
+      <webElementGuid>9ad08bc6-beb8-4d86-9036-114345f1bad4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pra Exam'])[1]/following::button[1]</value>
+      <webElementGuid>d70d8cf6-aec2-4e92-b9e1-804888003705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Excellent'])[1]/following::button[2]</value>
+      <webElementGuid>5247bc07-98ce-46c1-b7ee-764157acd6dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ArpriansahY'])[1]/preceding::button[1]</value>
+      <webElementGuid>75859ba9-593c-4162-9ffe-f7a6a5b3efa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Excellent'])[2]/preceding::button[1]</value>
+      <webElementGuid>942ca26b-9ef4-4758-b72f-b15403e929e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Exam']/parent::*</value>
+      <webElementGuid>e522090a-2f49-4137-8d05-67bdc14b3ef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>62f3194b-b392-4a69-b165-50c2061f1ff0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Exam' or . = 'Exam')]</value>
+      <webElementGuid>c141aa31-f8e2-47cf-a8ee-481d91daf375</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
