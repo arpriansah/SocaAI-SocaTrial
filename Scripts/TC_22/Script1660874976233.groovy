@@ -44,10 +44,6 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/fr07/Page_soca-ai-pr
 WebUI.setText(findTestObject('Object Repository/fr07/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'), 
     'Jadwal testing')
 
-WebUI.click(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_Start Date_start_date'))
-
-WebUI.click(findTestObject('Object Repository/fr07/Page_soca-ai-proctoring-dashboard/span_19'))
-
 WebUI.click(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_End Date_end_date'))
 
 WebUI.click(findTestObject('Object Repository/fr07/Page_soca-ai-proctoring-dashboard/span_22'))

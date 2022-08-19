@@ -66,20 +66,6 @@ WebUI.click(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_minute
 
 WebUI.doubleClick(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_pm_or_am_start_time'))
 
-WebUI.doubleClick(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_hours_end_time'))
-
-WebUI.doubleClick(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_hours_end_time'))
-
-WebUI.doubleClick(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_hours_end_time'))
-
-WebUI.doubleClick(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_hours_end_time'))
-
-WebUI.doubleClick(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_hours_end_time'))
-
-WebUI.click(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_minutes_end_time'))
-
-WebUI.click(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_pm_or_am_end_time'))
-
 WebUI.click(findTestObject('Object Repository/fr07/Page_soca-ai-proctoring-dashboard/button_Submit'))
 
 WebUI.click(findTestObject('fr07/Page_soca-ai-proctoring-dashboard/button_OK_succes'))
