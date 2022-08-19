@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_arpriansahgmail.com_btn btn-sm btn-w_ce2c98</name>
+   <tag></tag>
+   <elementGuidId>691ffea2-ac1f-463b-a086-9357f09dfbd5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='__BVID__45']/tbody/tr[2]/td[6]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b38eb646-cc65-47b7-b9fd-fb976af578be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-warning mx-1 text-white</value>
+      <webElementGuid>c59ca9e3-488e-445e-b699-ccf8beeb8dee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__45&quot;)/tbody[1]/tr[2]/td[6]/div[@class=&quot;d-inline-flex align-items-center&quot;]/button[@class=&quot;btn btn-sm btn-warning mx-1 text-white&quot;]</value>
+      <webElementGuid>1cbd110c-361a-429e-b98a-a6363937ebe5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='__BVID__45']/tbody/tr[2]/td[6]/div/button</value>
+      <webElementGuid>17ca8a66-8871-4607-853b-cd18778afd2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='arpriansah@gmail.com'])[2]/following::button[1]</value>
+      <webElementGuid>b4b64a2c-5aad-4b5a-8d97-05bc4c9a32a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arpriansah_Yonathan'])[2]/following::button[1]</value>
+      <webElementGuid>90923592-8d1c-46a5-9fe7-ce3198af6ae7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='arprii'])[1]/preceding::button[2]</value>
+      <webElementGuid>fc6a7253-1fef-4cc3-a2b5-467400825078</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arpriansah Yonathan'])[1]/preceding::button[2]</value>
+      <webElementGuid>f1d2f45e-2ea7-42c4-b769-0dc893f5a048</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[6]/div/button</value>
+      <webElementGuid>4cf27292-dc52-4351-b53a-d3e6b96f99f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

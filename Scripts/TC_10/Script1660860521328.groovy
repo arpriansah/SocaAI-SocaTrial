@@ -17,3 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://soca.ai/home')
+
+WebUI.click(findTestObject('Object Repository/fr02/Page_soca.ai/a_Sign In'))
+
+WebUI.setText(findTestObject('Object Repository/fr02/Page_soca-dashboarduser/input_Email_form-control'), 'socatrial@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/fr02/Page_soca-dashboarduser/input_Password_form-control mb-2'), 
+    'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Object Repository/fr02/Page_soca-dashboarduser/button_Sign In'))
+
+WebUI.click(findTestObject('Object Repository/fr02/Page_soca-dashboarduser/button_OK'))
+
+WebUI.click(findTestObject('Object Repository/fr02/Page_soca-dashboarduser/a_Projects'))
+
+WebUI.click(findTestObject('Object Repository/fr02/Page_soca-dashboarduser/button_Dashboard'))
+
+WebUI.click(findTestObject('Object Repository/fr02/Page_soca-ai-proctoring-dashboard/span_Master Users'))
+
+WebUI.click(findTestObject('Object Repository/fr02/Page_soca-ai-proctoring-dashboard/button_arpriansahgmail.com_btn btn-sm btn-w_ce2c98'))
+
+WebUI.setText(findTestObject('Object Repository/fr02/Page_soca-ai-proctoring-dashboard/input_Email_txt-email'), 'arpri28@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/fr02/Page_soca-ai-proctoring-dashboard/button_Submit'))
+
+WebUI.click(findTestObject('Object Repository/fr02/Page_soca-ai-proctoring-dashboard/button_OK'))
+
+WebUI.closeBrowser()
+

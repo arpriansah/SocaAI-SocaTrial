@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Master Event</name>
+   <tag></tag>
+   <elementGuidId>febf35b7-518a-4f46-88b0-bd03166582b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div[3]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>10797087-32e5-49cf-b66d-ec4bcae763aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hide-in-minisidebar</value>
+      <webElementGuid>32eb2f42-3464-40e2-bc62-2f33a3f76215</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Master Event</value>
+      <webElementGuid>2d773dd8-c4c5-4858-b3bb-bc7a372c5c77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper&quot;]/div[@class=&quot;vs-content-sidebar sidebarx&quot;]/div[@class=&quot;vs-sidebar vs-sidebar-primary vs-sidebar-parent&quot;]/div[@class=&quot;vs-sidebar--items&quot;]/div[@class=&quot;vs-sidebar--item&quot;]/a[1]/span[@class=&quot;hide-in-minisidebar&quot;]</value>
+      <webElementGuid>092c373b-bad0-4e30-8fe5-662b2cc8b81d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div[3]/a/span</value>
+      <webElementGuid>b565ba4a-0fb9-409b-90b4-34c4a52294a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='event'])[1]/following::span[1]</value>
+      <webElementGuid>c680df20-9432-4e62-84af-eaa9bb6c6fe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Users'])[1]/following::span[1]</value>
+      <webElementGuid>805ccc89-3392-43d8-b3de-6ec394152f3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='schedule'])[1]/preceding::span[1]</value>
+      <webElementGuid>94a71699-c0bd-4512-bd15-2ed659be446d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule'])[1]/preceding::span[1]</value>
+      <webElementGuid>b64b0dff-2ac7-4a12-8c93-73c2467e4294</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Master Event']/parent::*</value>
+      <webElementGuid>9a94284a-133e-49e4-9373-5484b53cea64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a/span</value>
+      <webElementGuid>b35d0dd4-7cef-4a7b-b46a-4c7775de7ef9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Master Event' or . = 'Master Event')]</value>
+      <webElementGuid>214c6f81-dd41-47d8-ab48-d194e3cb8633</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

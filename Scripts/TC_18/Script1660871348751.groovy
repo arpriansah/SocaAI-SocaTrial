@@ -21,28 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://soca.ai/home')
 
-WebUI.click(findTestObject('Object Repository/fr03/Page_soca.ai/a_Sign In'))
+WebUI.click(findTestObject('Object Repository/fr06/Page_soca.ai/a_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/fr03/Page_soca-dashboarduser/input_Email_form-control'), 'socatrial@gmail.com')
+WebUI.setText(findTestObject('Object Repository/fr06/Page_soca-dashboarduser/input_Email_form-control'), 'socatrial@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/fr03/Page_soca-dashboarduser/input_Password_form-control mb-2'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/fr06/Page_soca-dashboarduser/input_Password_form-control mb-2'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/fr03/Page_soca-dashboarduser/button_Sign In'))
+WebUI.click(findTestObject('Object Repository/fr06/Page_soca-dashboarduser/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/fr03/Page_soca-dashboarduser/button_OK'))
+WebUI.click(findTestObject('Object Repository/fr06/Page_soca-dashboarduser/button_OK'))
 
-WebUI.click(findTestObject('Object Repository/fr03/Page_soca-dashboarduser/a_Projects'))
+WebUI.click(findTestObject('Object Repository/fr06/Page_soca-dashboarduser/a_Projects'))
 
-WebUI.click(findTestObject('Object Repository/fr03/Page_soca-dashboarduser/button_Dashboard'))
+WebUI.click(findTestObject('Object Repository/fr06/Page_soca-dashboarduser/button_Dashboard'))
 
-WebUI.click(findTestObject('Object Repository/fr03/Page_soca-ai-proctoring-dashboard/span_Master Users'))
+WebUI.click(findTestObject('Object Repository/fr06/Page_soca-ai-proctoring-dashboard/span_Master Event'))
 
-WebUI.click(findTestObject('Object Repository/fr03/Page_soca-ai-proctoring-dashboard/button_arpri28gmail.com_btn btn-sm btn-danger mx-1'))
+WebUI.click(findTestObject('Object Repository/fr06/Page_soca-ai-proctoring-dashboard/button_Jadwal testing1_btn btn-danger'))
 
-WebUI.click(findTestObject('Object Repository/fr03/Page_soca-ai-proctoring-dashboard/button_Delete'))
+WebUI.click(findTestObject('fr06/Page_soca-ai-proctoring-dashboard/button_Delete_event'))
 
-WebUI.click(findTestObject('Object Repository/fr03/Page_soca-ai-proctoring-dashboard/button_OK'))
+WebUI.click(findTestObject('Object Repository/fr06/Page_soca-ai-proctoring-dashboard/button_OK'))
 
 WebUI.closeBrowser()
 
